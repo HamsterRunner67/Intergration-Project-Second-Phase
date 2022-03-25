@@ -1,14 +1,12 @@
 # Nicholas Lamon
 # The program creates and allows you to play Minesweeper
-#
-#
 import random
 
 
 # Need To Do
 # Complete Gameplay Loop - Done
 # Add first spot Grace - Done
-# Detect Win conditions.
+# Detect Win conditions. - Done
 
 
 def createGrid(sizeX, sizeY, mines, difficulty):
@@ -31,7 +29,7 @@ def createGrid(sizeX, sizeY, mines, difficulty):
 
 
 def displayGrid(gridArray):
-    # Takes any grid make and displays it
+    # Takes any grid and makes and displays it
 
     accumulator = 1
     for y in gridArray:
